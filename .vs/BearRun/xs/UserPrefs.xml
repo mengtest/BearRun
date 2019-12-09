@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{D8AC4BD5-231E-3FE3-E5F1-9EF29441E4C7}|">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BearRun" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Res" expanded="True">
+                <Node name="Shader" expanded="True">
+                  <Node name="Toony-BasicOutline.shader" selected="True" />
+                </Node>
+              </Node>
+              <Node name="Scripts" expanded="True">
+                <Node name="Application" expanded="True">
+                  <Node name="Net" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.BearRun PreferredExecutionTarget="beb3c278-bf19-475a-aebc-18c4ccf26427" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6c84243f-6b62-4899-9d36-1876ed21e5b3" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

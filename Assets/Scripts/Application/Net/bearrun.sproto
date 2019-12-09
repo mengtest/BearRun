@@ -1,0 +1,76 @@
+.package {
+    type 0 : integer
+    session 1 : integer
+}
+
+login 1 {
+    request {
+        username 0: string
+        password 1: string
+    }
+    response {
+        status 0: boolean
+        error 1: string
+    }
+}
+
+register 2 {
+    request {
+        username 0: string
+        password 1: string
+    }
+    response {
+        status 0: boolean
+        error 1: string
+    }
+}
+
+
+getUser 3 {
+    request {
+        username 0: string
+    }
+    response {
+        status 0: boolean
+        username 1: string
+        coin 2: integer
+        score 3: integer
+        rank 4: integer
+        exp 5: integer
+    }
+}
+
+postUser 4 {
+    request {
+        username 0: string
+        coin 1: integer
+        score 2: integer
+        rank 3: integer
+        exp 4: integer
+    }
+    response {
+        status 0: boolean
+    }
+}
+
+.info {
+    username 0: string
+    score 1: integer
+    scorerank 2: integer
+}
+
+getRank 5 {
+    request {
+
+    }
+    response {
+        status 0: boolean
+        rank 1: *info
+    }
+}
+
+close 6 {
+    request {
+        
+    }
+}
